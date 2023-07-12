@@ -1,0 +1,175 @@
+1.Check the number is positive or negative
+	var a;
+	var a=prompt("Enter Any Number");
+	if(a>0){
+		document.write("Number is Positive"+"<br>");
+	}
+	else if(a<0){
+		document.write("Number is Negative"+"<br>");
+	}
+	else{
+		document.write("Number is Zero"+"<br>");
+	}
+2.Check the number is Even or Odd
+	var a;
+	var a=prompt("Enter Any Number");
+	if(a%2==0){
+		document.wrtie("Number is Even");
+	}
+	else{
+		document.write("Number is Odd");
+	}
+3.Check the number is Two digit number
+	var a=prompt("Enter Any Number");
+	if(10<=a&&a<100){
+		document.write("Number is two digit Number");
+	}
+	else{
+		document.write("Number is not a two digit Number");
+	}
+4.Check the person is eligible for vote
+	var a=prompt("Enter Your Age");
+	if(a>=18){
+		document.write("Eligible for vote");
+	}
+	else{
+		document.write("Not Eligible for vote");
+	}
+5.Check the person is eligible for license
+	var a=prompt("Enter Your Age");
+	if(a>=18){
+		document.write("Eligible for License");
+	}
+	else{
+		document.write("Not Eligible for License");
+	}
+6. Check any two numbers are equal or greater than or less than
+	var a=prompt("Enter first Number");
+	var b=prompt("Enter Second Number");
+	if(a>b){
+		document.write("First Number is greater than Second Number");
+	}
+	else if(a<b){
+		document.write("First Number is less tha Second Number");
+	}
+	else{
+		document.write(First Number is equal to Second Number);
+	}
+7.Check password is correct or not
+	var pw=prompt("Enter Your Password");
+	var cpw=prompt("Enter Confirm Password");
+	if(pw==cpw){
+		document.write("Password is correct");
+	}
+	else{
+		document.write("Password is wrong");
+	}
+
+8.Check password length(8) is strong or weak..
+	var pw=prompt("Enter Your Password");
+	if(pw.length>=8)
+	{
+		document.write("Password is strong");
+	}
+	else{
+		document.write("Password is weak");
+	}
+9. Student Grade 
+	Above 90--->Grade A
+	Above 80--->Grade B
+	Above 60--->Grade C
+	Above 40--->Grade D
+	less than 40--->Fail
+	var a=prompt("Enter Any Number");
+	if(a>=90)
+	{
+		document.write("Grade A");
+	}
+	else if(a>=80&&a<=89)
+	{
+		document.write("Grade B");
+	}
+	else if(a>=60&&a<=79)
+	{
+		document.write("Grade C");
+	}
+	else if(a>=40&&a<=59)
+	{
+		document.write("Grade D");
+	}
+	else{
+		document.write(Fail)
+	}
+10. Saving Amount:
+	below 2000 RS -->Basic mobile
+	upto 20000 rs----> Android Mobile
+	upto 50000 Rs --->iPad
+	above 50,000---> Apple
+	var a=prompt("Enter Your Saving Amount");
+	if(a<=2000)
+	{
+		document.write("Basic Mobile");
+	}
+	else if(a>2000&&a<=20000)
+	{
+		document.write("Android Mobile");
+	}
+	else if(a>=20000&&a<=50000)
+	{
+		document.write("iPad");
+	}
+	else if(a>50000)
+	{
+		document.write("Apple");
+	}
+11. Marriage eligibility:
+	Male-- age is above 21
+	Female --Age is above 18
+
+	var gender=prompt("Enter Your Gender");
+	var age=prompt("Enter Your Age");
+	if(gender=="male")
+	{
+		if(age>=21)
+			{
+				document.write("He is eligible for Marriage");
+			}
+		else
+			{
+				document.write("He is not eligible for Marriage");
+			}
+	}
+	else if(gender=="female")
+	{
+		if(age>=18)
+			{
+				document.write("She is eligible for Marriage");
+			}
+		else
+			{
+				document.write("She is not eligible for Marriage");
+			}
+	}
+	else{
+		document.write("Enter Only Male or Female");
+	}
+12. Check the given number is divisible by 6
+	var a=prompt("Enter any Number");
+	if(a%6==0)
+	{
+		document.write("Number is divisible by 6");
+	}
+	else
+	{
+		document.write("Number is not divisible by 6");
+	}
+
+
+
+
+
+
+
+
+
+	
